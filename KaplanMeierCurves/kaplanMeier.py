@@ -84,3 +84,10 @@ def test2(t, status):
     print("pSurviving: ", pSurviving)
             
 test2(d_time, d_status)
+
+"""
+days:  [0, 1, 2, 3, 5, 8]
+nDied:  [0, 2, 1, 1, 1, 1]
+nAlive:  [10, 10, 8, 5, 4, 2, 0]
+pSurviving:  [1, 0.8, 0.7000000000000001, 0.56, 0.42000000000000004, 0.21000000000000002]
+""" 
